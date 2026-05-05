@@ -1,0 +1,19 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/stu-bell/devcontainer-features/node:0": {
+      "min_node_version": "22.22.0"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "github.vscode-github-actions",
+        "chris-noring.node-snippets"
+      ],
+      "settings": {
+        "workbench.colorTheme": "GitHub Dark"
+      }
+    }
+  }
+}
